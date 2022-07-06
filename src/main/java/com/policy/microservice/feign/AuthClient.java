@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import com.policy.microservice.dto.ValidatingDTO;
 
 
-@FeignClient(name = "auth-client", url = "${Authorization.URL}")
+@FeignClient(name = "auth-client", url = "${Cdeauthorizationpod2-env.eba-psugwnmv.us-east-1.elasticbeanstalk.com }")
 public interface AuthClient {
 	
 	 @GetMapping(value = "/validate")
